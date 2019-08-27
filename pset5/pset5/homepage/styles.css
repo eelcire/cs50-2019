@@ -1,0 +1,12 @@
+body {
+    background-image: url("eh.jpg");
+}
+.title {
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+.pity {
+    text-align: center;
+    text-shadow: 1px 1px white;
+}

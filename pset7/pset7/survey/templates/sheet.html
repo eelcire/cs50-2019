@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>House</th>
+            <th>Position</th>
+        </tr>
+        <tr>
+            {%for c in csvfile%}
+            <td>{{c[0]}}</td>
+            <td>{{c[1]}}</td>
+            <td>{{c[2]}}</td>
+            {%endfor%}
+        </tr>
+    </table>
+
+{% endblock %}

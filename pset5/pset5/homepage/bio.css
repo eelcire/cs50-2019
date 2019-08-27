@@ -1,0 +1,18 @@
+body {
+    background-image: url("broke.jfif");
+}
+h2 {
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    width: 200px;
+    margin: 50px auto;
+    background-color: rgb(230, 230, 230);
+}
+p {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    background: rgb(230, 230, 230);
+}

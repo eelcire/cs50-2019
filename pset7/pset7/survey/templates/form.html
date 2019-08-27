@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <!-- http://getbootstrap.com/docs/4.1/content/typography/ -->
+    <h1 class="mb-3">Form</h1>
+
+    <!-- http://getbootstrap.com/docs/4.1/components/forms/ -->
+    <form action="/form" method="post">
+        Name: <input type="text" name="name"><br>
+        <select name = "house">
+            <option value="">--House--</option>
+            <option value="Gryffindor">Gryffindor</option>
+            <option value="Hufflepuff">Hufflepuff</option>
+            <option value="Ravenclaw">Ravenclaw</option>
+            <option value="Slytherin">Slytherin</option>
+        </select><br>
+        <input type = "radio" id = "Beater" name = "position" value = "Beater">
+        <label for = "Beater">Beater</label>
+        <input type = "radio" id = "Chaser" name = "position" value = "Chaser">
+        <label for = "Chaser">Chaser</label>
+        <input type = "radio" id = "Keeper" name = "position" value = "Keeper">
+        <label for = "Keeper">Keeper</label>
+        <input type = "radio" id = "Seeker" name = "position" value = "Seeker">
+        <label for = "Seeker">Seeker</label><br>
+
+        <!-- http://getbootstrap.com/docs/4.1/components/buttons/ -->
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <script>
+
+        /* TODO */
+
+    </script>
+
+{% endblock %}
